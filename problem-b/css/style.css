@@ -1,0 +1,37 @@
+header h1 {
+  font-weight: 300;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+main table {
+  background-color: #bee9e3;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main table thead th {
+  height: 2rem;
+  text-align: left;
+  padding: 0.5em;
+  color: #1db954;
+  background-color: #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+main table tbody tr {
+  transition: all 0.2s;
+}
+main table tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+main table tbody tr:hover {
+  background-color: pink;
+}
+main table tbody tr td {
+  padding: 0.5em;
+  border-bottom: 1px solid #d3d3d3;
+}
+main table tbody tr td img {
+  width: 100px;
+  height: 100px;
+}
